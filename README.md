@@ -15,8 +15,6 @@ The goal was to recreate a given **Figma design** using only **semantic HTML** a
 
 ```
 
-```
-
 webstudio-project/
 │── index.html
 │── css/
@@ -33,8 +31,6 @@ webstudio-project/
 │ ├── screen-illustrators.jpg
 │ └── online-courses.jpg
 │── README.md
-
-```
 
 ```
 
