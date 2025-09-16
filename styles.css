@@ -1,0 +1,265 @@
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Genel */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 10px 15px;
+}
+
+/* Ortak Padding */
+.section {
+  padding: 120px 80px;
+}
+
+/* HEADER */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+}
+
+.nav-left {
+  display: flex;
+  gap: 30px;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+
+.logo .studio {
+  color: #2e2f42;
+}
+
+/* MENU */
+
+.menu ul {
+  display: flex;
+  gap: 40px;
+}
+
+.menu a {
+  font-weight: 500;
+  font-size: 16px;
+  color: #2e2f42;
+  text-decoration: none;
+  line-height: 1.7;
+}
+
+.menu a:hover {
+  color: #404bbf;
+}
+
+/* NAV RIGHT */
+
+.nav-right ul {
+  display: flex;
+  gap: 20px;
+}
+
+.contact a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.contact a:hover {
+  color: #404bbf;
+}
+
+/* HERO */
+
+.hero {
+  background-color: #2e2f42;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 56px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #4d5ae5;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #404bbf;
+}
+
+/* FEATURES */
+.features-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.feature {
+  flex: 1;
+}
+
+.feature h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #2e2f42;
+}
+
+.feature p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #434455;
+}
+
+/* TEAM */
+
+.team {
+  background-color: #f4f4fd;
+  text-align: center;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+.member {
+  background-color: white;
+  flex: 1;
+  padding-bottom: 20px;
+  border-radius: 4px;
+}
+
+.member h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.member p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.member img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+/* PORTFOLIO */
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.portfolio h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+.portfolio-grid .card {
+  width: calc(33.333% - 16px);
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .logo {
+  margin-bottom: 10px;
+}
+
+.footer .logo .studio2 {
+  color: #f4f4fd;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
